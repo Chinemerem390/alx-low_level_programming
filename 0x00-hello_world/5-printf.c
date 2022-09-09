@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - print the string in prints function
+ * main - print the string in puts function
  *
  * Descriotion: Use the function printf to show the words.
  *
