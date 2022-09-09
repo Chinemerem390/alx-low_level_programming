@@ -2,7 +2,7 @@
 /**
  *A C programme that prints using put
  *
- *Description:Prints using put "Programming is like building a multilingual puzzle"
+ *Description: puts "Programming is like building a multilingual puzzle"
  *
  * Return: return 0 everytime
  */
