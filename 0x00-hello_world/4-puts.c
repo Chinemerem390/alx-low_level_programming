@@ -2,6 +2,8 @@
 /**
  *A C programme that prints using put
  *
+ * main- print using puts
+ *
  *Description: puts "Programming is like building a multilingual puzzle"
  *
  * Return: return 0 everytime
