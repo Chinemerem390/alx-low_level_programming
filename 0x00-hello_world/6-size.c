@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - A code that prints various sizes
+ *main - Entry point
  *
  *Description: Write a C program that prints the size of various types
  *return: 0
