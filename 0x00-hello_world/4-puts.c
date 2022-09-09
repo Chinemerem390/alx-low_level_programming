@@ -1,7 +1,5 @@
 #include <stdio.h>
 /**
- *A C programme that prints using put
- *
  * main- print using puts
  *
  *Description: description, using main fun this
