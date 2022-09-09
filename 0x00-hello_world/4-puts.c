@@ -4,7 +4,8 @@
  *
  * main- print using puts
  *
- *Description: puts "Programming is like building a multilingual puzzle"
+ *Description: description, using main fun this
+ puts "Programming is like building a multilingual puzzle"
  *
  * Return: return 0 everytime
  */
