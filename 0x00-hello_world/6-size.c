@@ -4,7 +4,7 @@
  * main - Entry point
  *
  * Description: Write a C program that prints the size of various types
- *return: 0
+ * Return: return 0 everytime
  */
 int main(void)
 {
