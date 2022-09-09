@@ -1,14 +1,11 @@
 #include <stdio.h>
-
 /**
  *main - A code that prints various sizes
  *
  *Description: Write a C program that prints the size of various types
  *return: 0
  */
-
 int main(void)
-
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
 	printf("Size of an int: %zu byte(s)\n", sizeof(int));
