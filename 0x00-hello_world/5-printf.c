@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - You are not allowed to use the function puts
+ * main - print the string in prints function
  *
  * Descriotion: Use the function printf to show the words.
  *
@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	printf ("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
