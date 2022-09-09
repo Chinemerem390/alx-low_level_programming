@@ -2,7 +2,7 @@
 /**
  * main- print using puts
  *
- *Description: using put write "Programming is like building a multilingual puzzle"
+ *Description: write "Programming is like building a multilingual puzzle"
  *
  * Return: return 0 everytime
  */
