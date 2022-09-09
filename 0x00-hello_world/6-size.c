@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
- *Description: Write a C program that prints the size of various types
+ * Description: Write a C program that prints the size of various types
  *return: 0
  */
 int main(void)
