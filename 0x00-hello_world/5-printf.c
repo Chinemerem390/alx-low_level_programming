@@ -2,7 +2,7 @@
 /*
  * main - print the string in puts function
  *
- * Descriotion: Use the function printf to show the words.
+ * Descriotion: Using the main function printf to show the words.
  *
  * Return: (0)
  */
