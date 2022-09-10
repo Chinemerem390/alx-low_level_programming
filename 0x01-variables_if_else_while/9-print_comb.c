@@ -10,7 +10,7 @@ int main(void)
 int c;
 for (c = 25; c <= 58; c++)
 {
-	printchar(c);
+	putchar(c);
 	if (c != 58)
 	{
 		putchar(',');
