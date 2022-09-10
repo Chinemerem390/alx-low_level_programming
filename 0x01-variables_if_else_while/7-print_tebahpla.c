@@ -14,4 +14,4 @@ for (b = 'z'; b <= 'a'; b--)
 }
 putchar('\n');
 return (0);
-}	
+}
