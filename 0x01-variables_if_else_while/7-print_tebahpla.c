@@ -12,6 +12,6 @@ for (b = 'z'; b <= 'a'; b--)
 {
 	putchar(b);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }	
