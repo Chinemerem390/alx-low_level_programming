@@ -3,7 +3,7 @@
  * main - Prints a to z
  *
  * Description: Using putchar print A to Z
- * return: return (0)
+ * Return: return (0)
  */
 int main(void)
 {
