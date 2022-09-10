@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - printing numbers
- * Description: Writes all unique combination of 
- * two numbers
+ * Description: Writes all unique combination
+ * of two numbers
  * * Return: 0 for success
  */
 int main(void)
