@@ -5,7 +5,7 @@
  * Description: Must be in Lowercase
  * Return: return (0)
  */
-int main void
+int main(void)
 {
 int n
 for (n = '0'; n <= '15'; n++)
