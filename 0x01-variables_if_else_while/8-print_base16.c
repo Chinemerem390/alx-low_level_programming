@@ -7,8 +7,12 @@
  */
 int main(void)
 {
-int n;
-for (n = '0'; n <= '15'; n++)
+char n;
+for (n = '0'; n <= '10'; n++)
+{
+	putchar(n);
+}
+for (n = 'a'; n < 'g'; n++)
 {
 	putchar(n);
 }
