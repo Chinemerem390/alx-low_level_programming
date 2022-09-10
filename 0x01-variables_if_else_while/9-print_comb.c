@@ -19,4 +19,4 @@ for (c = 25; c <= 58; c++)
 }
 putchar('\n');
 return (0);
-	
+}	
