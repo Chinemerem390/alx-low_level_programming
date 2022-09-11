@@ -7,22 +7,30 @@
  */
 int main(void)
 {
-int i, j;
-for (i = '0'; i <= '9'; i++)
+int c = 0;
+int f_d;
+int m_d;
+int l_d;
+
+while (c <= 999)
 {
-for (j = '0'; j <= '9'; j++)
+f_d = (c / 100 + '0');
+m_d = (c / 10 % 10 + '0');
+l_d = (c % 10 + '0');
+
+if ((f_d < m_d) && (m_d < l_d))
 {
-if ((i < j) & (j <= '9'))
-{
-putchar(i);
-putchar(j);
-if ((j < '9') | (i < '8'))
+putchar(f_d);
+putchar(m_d);
+putchar(l_d);
+
+if (c != 789)
 {
 putchar(',');
 putchar(' ');
 }
 }
-}
+c++;
 }
 putchar('\n');
 return (0);
