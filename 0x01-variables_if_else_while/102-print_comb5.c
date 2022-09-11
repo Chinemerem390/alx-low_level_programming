@@ -9,23 +9,38 @@
  */
 int main(void)
 {
-		int p, q;
-
-			for (p = 0; p <= 98; p++)
-					{
-								for (q = p + 1; q <= 99; q++)
-											{
-															putchar((p / 10) + '0');
-																		putchar((p % 10) + '0');
-																					putchar(' ');
-																								putchar((q / 10) + '0');
-																											putchar((q 												if (p == 98 && q == 99)
-																		continue;
-
-																																	putchar(',');																																				putchar(' ');											}
+int i, j, k, m;
+i = 48;
+while (i < 58)
+{
+j = 48;
+while (j < 58)
+{
+m = j + 1;
+k = i;
+while (k < 58)
+{
+while (m < 58)
+{
+putchar(i);
+putchar(j);
+putchar(32);
+putchar(k);
+putchar(m);
+if (i < 57 || j < 56 || k < 57 || m < 57)
+{
+putchar(44);
+putchar(32);
 }
-
-putchar('\n');
-
+m++;
+}
+m = 48;
+k++;
+}
+j++;
+}
+i++;
+}
+putchar(10);
 return (0);
 }
