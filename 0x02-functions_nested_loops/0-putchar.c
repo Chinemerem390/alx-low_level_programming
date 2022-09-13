@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * main - Write a prog that prints new line
  *
