@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * print_alphabet_x10 - functions to print abc 10 times
+ * print_alphabet_x10 - function to print abc 10 times
  *
  * Description : use putchar
  *
@@ -17,6 +17,6 @@ void print_alphabet_x10(void)
 	{
 		_putchar(i);
 	}
-	}
 		_putchar('\n');
+	}
 }
