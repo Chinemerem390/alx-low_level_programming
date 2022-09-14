@@ -2,7 +2,7 @@
 /*
  * print_alphabet_x10 - function to print abc 10 times
  *
- * Description : use putchar
+ * Description: use putchar
  *
  * Return: 0
  *
