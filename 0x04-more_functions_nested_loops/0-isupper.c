@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _isupper - checks is a character is uppercase
- * @c: carrier integer variable
- * Return: 1 if true, 0 if false
- */
+* _isupper - checks for uppercase character
+* @c: Variable text
+* Return: Always 0.
+*/
 
 int _isup(int c)
 {
