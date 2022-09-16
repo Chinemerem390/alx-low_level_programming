@@ -7,7 +7,7 @@
  * Return: 1 if true, 0 if false
  */
 
-int _isupper(int c)
+int _isup(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
@@ -18,3 +18,4 @@ int _isupper(int c)
 		return (0);
 	}
 }
+
