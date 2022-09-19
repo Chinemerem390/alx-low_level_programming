@@ -1,27 +1,23 @@
-/*
- * File: 9-strcpy.c
- * Auth: yabets
- */
-
-#include "main.h"
-
 /**
- * _strcpy - Copies a string pointed to by @src, including the
- *           terminating null byte, to a buffer pointed to by @dest.
- * @dest: A buffer to copy the string to.
- * @src: The source string to copy.
+ * _strcpy - copies a string from one pointer to another
+ *	including the terminating null byte (\0)
  *
- * Return: A pointer to the destination string @dest.
- */
-char *_strcpy(char *dest, const char *src)
-{
-	int index = 0;
+ * @src: source of string parameter input
+ * @dest: destination of string
+ *
+ * Return: pointer to dest input parameter
+*/
 
-	while (src[index])
+char *_strcpy(char *dest, char *src)
+{
+	int a, b = 0;
+
+	for (a = 0; src[a] != '\0'; ++a)
 	{
-		dest[index] = src[index];
-		index++;
+		dest[b] = src[a];
+		++b;
 	}
+	dest[b] = '\0';
 
 	return (dest);
 }
